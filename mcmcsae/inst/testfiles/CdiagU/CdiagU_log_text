@@ -1,0 +1,30 @@
+INFO: Starting fuzzing
+WARNING: No test specified, defaulting to first test defined (_)
+input starts
+EXTERNAL: qs v0.23.5.
+
+n values: 467495432
+input ends
+EXTERNAL: Error in getClass("ddiMatrix") : “ddiMatrix” is not a defined class
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.5.
+
+n values: -498905818
+input ends
+EXTERNAL: Error in getClass("ddiMatrix") : “ddiMatrix” is not a defined class
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.5.
+
+n values: -293123844
+input ends
+EXTERNAL: Error in getClass("ddiMatrix") : “ddiMatrix” is not a defined class
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 3 tests (1 tests/second) with 3 failed/0 passed/0 abandoned tests

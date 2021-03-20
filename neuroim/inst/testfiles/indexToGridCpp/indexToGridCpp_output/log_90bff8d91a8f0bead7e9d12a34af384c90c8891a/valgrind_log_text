@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (_)
+TRACE: Initialized test input buffer with data from `/home/akhila/fuzzer_packages/fuzzedpackages/neuroim/inst/testfiles/indexToGridCpp/indexToGridCpp_output/90bff8d91a8f0bead7e9d12a34af384c90c8891a.pass`
+TRACE: Running: _ from /home/akhila/fuzzer_packages/fuzzedpackages/neuroim/inst/testfiles/indexToGridCpp/indexToGridCpp_DeepState_TestHarness.cpp(13)
+input starts
+EXTERNAL: qs v0.23.5.
+
+idx values: 2051319948 183851356 600611799 -2015925719 640758675 -2045256755
+Missing value
+array_dim values: -1294723540 -2147483648
+input ends
+TRACE: Passed: _

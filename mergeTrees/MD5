@@ -1,0 +1,13 @@
+e122278236fc1416a099d9da69060491 *DESCRIPTION
+5cdb9fe7661a317639a6a649ec5d17f9 *NAMESPACE
+f4d77f355d6ca7d215c148bd75317756 *NEWS.md
+c4f886475d6e727f30b832c53dd12dd3 *R/RcppExports.R
+a789195bb4b6067d46857972ce1e0cb8 *R/mergeTrees-package.R
+a085c62fc6f8fe4a5bc6767b2f8aa180 *R/mergeTrees.R
+90880916f4af335d2c98fe5efc435ed9 *R/utils.R
+6cd24e9d30d21850fc65d01631d5cb15 *README.md
+9ddd4e4cd2e52d14c1051fb88b5620d7 *man/mergeTrees.Rd
+291e06bd31cf45d60cd17ef3f0493649 *src/RcppExports.cpp
+9036ed41367fddb20f0af2a56ac46cc8 *src/as.fusionTree.cpp
+5d4bea5d35fe73c5eb819fb953828373 *src/export_hclust.cpp
+8ae84a1a962ea5faa58ca49812b46868 *src/prune_splits.cpp

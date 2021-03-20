@@ -1,0 +1,3 @@
+testlist <- list(A = structure(c(3.21293547192608e-294, 1.86664116773806e-301,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0), .Dim = c(7L, 10L)), left = 0L, right = 0L, x = numeric(0))
+result <- do.call(mgss:::MVP_normalfactor_rcpp,testlist)
+str(result)

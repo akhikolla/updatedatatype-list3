@@ -1,0 +1,3 @@
+testlist <- list(A = structure(c(2.31584307392677e+77, 1.45541115138296e+291,  1.22810536108276e+146, 2.58543967171209e-310, 0, 0, 0), .Dim = c(1L,  7L)), B = structure(0, .Dim = c(1L, 1L)))
+result <- do.call(multivariance:::match_rows,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(dur = c(3.23091276456859e+280, 4.937187975535e-299, NaN,  -1.71833249736265e-93, -2.77034205492274e+306, -4.17721493241853e-156,  4.33613671931089e+198, 8.09307924505602e+175, 1.62597454369523e-260,  NaN, Inf, NaN, -Inf, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, -2.3012043014859e-159, 4.30355414687815e-306, -1.37050372934149e+306,  0))
+result <- do.call(nanotime:::duration_to_string_impl,testlist)
+str(result)

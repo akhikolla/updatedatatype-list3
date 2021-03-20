@@ -1,0 +1,3 @@
+testlist <- list(x = structure(c(1.26480805335359e-321, 4.94065645841247e-324,  4.94065645841247e-324, 4.94065645841247e-324, 4.94065645841247e-324,  4.94065645841247e-324, 3.82073266163617e-317, 2.77388382091359e-306,  2.3433133207261e-313, 0, 0, 0, 0, 0), .Dim = c(7L, 2L)))
+result <- do.call(multivariance:::doubleCenterBiasCorrectedUpper,testlist)
+str(result)

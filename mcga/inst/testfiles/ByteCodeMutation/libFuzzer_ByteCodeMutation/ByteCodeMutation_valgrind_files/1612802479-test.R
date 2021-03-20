@@ -1,0 +1,3 @@
+testlist <- list(bytes1 = c(2105376125L, NA, 0L, 255L, -65281L, -13959169L,  -50256899L, -33595648L, 22102L, 1448498774L, 1448498774L, 1448498774L,  1448498774L, 1448498774L, 1448498774L, 1448498774L, 1448498688L ), pmutation = NaN)
+result <- do.call(mcga:::ByteCodeMutation,testlist)
+str(result)

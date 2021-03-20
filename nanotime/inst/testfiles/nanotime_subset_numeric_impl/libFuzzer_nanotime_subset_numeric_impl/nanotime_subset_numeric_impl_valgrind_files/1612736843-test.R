@@ -1,0 +1,3 @@
+testlist <- list(idx = c(1.39065532948776e-309, -5.48612406895336e+303, -1.10957441938258e-72,  -1.10957441834902e-72, 1.52919504680122e-308, NaN, -1.09649869513661e-72,  NaN, NaN, 4.24399158193054e-314, 6.05676843381024e+144, 1.35816019667342e-312,  0), v = numeric(0))
+result <- do.call(nanotime:::nanotime_subset_numeric_impl,testlist)
+str(result)

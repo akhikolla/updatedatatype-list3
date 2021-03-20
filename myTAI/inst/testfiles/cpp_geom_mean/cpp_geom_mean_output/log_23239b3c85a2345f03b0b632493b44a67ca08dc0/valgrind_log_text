@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (_)
+TRACE: Initialized test input buffer with data from `/home/akhila/fuzzer_packages/fuzzedpackages/myTAI/inst/testfiles/cpp_geom_mean/cpp_geom_mean_output/23239b3c85a2345f03b0b632493b44a67ca08dc0.pass`
+TRACE: Running: _ from /home/akhila/fuzzer_packages/fuzzedpackages/myTAI/inst/testfiles/cpp_geom_mean/cpp_geom_mean_DeepState_TestHarness.cpp(13)
+input starts
+Missing value
+EXTERNAL: qs v0.23.5.
+
+x values: nan -1.071e-221 -7.99403e+98 inf -1.4361e+256 9.71797e+50 6.82661e-116 nan 9.57446e+141 -5.76578e+136 1.82296e+211 6.82661e-116 -1.47907e-108 0
+input ends
+TRACE: Passed: _

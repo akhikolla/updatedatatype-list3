@@ -1,0 +1,3 @@
+testlist <- list(nPercentages = 0L, nTimeSteps = 0L, phaseSpace = structure(c(2.48103907631885e-265,  1.35242425969637e-309, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = 8:9), radii = numeric(0),      timeStep = 0L)
+result <- do.call(nonlinearTseries:::space_time_plot,testlist)
+str(result)

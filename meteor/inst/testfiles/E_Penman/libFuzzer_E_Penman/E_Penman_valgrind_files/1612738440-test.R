@@ -1,0 +1,3 @@
+testlist <- list(Rext = numeric(0), Rs = numeric(0), Z = numeric(0), alpha = numeric(0),      atmp = c(7.72782062661716e+228, 6.77023560572249e+223, 6.84726948755392e-08,      3.18352276796057e+151, 3.50636395563941e+151, 1.68048229156452e+117,      1.5319122082349e-94, -4.94660605269088e+173, 7.11454530011395e-322,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), relh = NA_real_,      temp = NaN, u = numeric(0))
+result <- do.call(meteor:::E_Penman,testlist)
+str(result)

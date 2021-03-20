@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./cpp_pMatrix_DeepState_TestHarness --input_test_file /home/akhila/fuzzer_packages/fuzzedpackages/myTAI/inst/testfiles/cpp_pMatrix/cpp_pMatrix_output/87c4b67ad508e54ae2e217fd55cb91019c542cff.pass</line>
+</preamble>
+
+<pid>2422740</pid>
+<ppid>2422739</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/fuzzer_packages/fuzzedpackages/myTAI/inst/testfiles/cpp_pMatrix/cpp_pMatrix_output/log_87c4b67ad508e54ae2e217fd55cb91019c542cff/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./cpp_pMatrix_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/fuzzer_packages/fuzzedpackages/myTAI/inst/testfiles/cpp_pMatrix/cpp_pMatrix_output/87c4b67ad508e54ae2e217fd55cb91019c542cff.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.094 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:14.899 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:15.938 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

@@ -1,0 +1,3 @@
+testlist <- list(doy = c(0, 2.25248680919821e-23, 1.39067109486637e-309,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0), latitude = numeric(0), temp = numeric(0))
+result <- do.call(meteor:::ET0_ThornthwaiteWilmott,testlist)
+str(result)

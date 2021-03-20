@@ -1,0 +1,3 @@
+testlist <- list(b = c(2132498949L, 1038L, 235802126L, 621678094L, 235802126L,  235802126L, 235802213L, 520159232L, 335544320L, 0L, 0L, 0L, 27L,  8330084L, 83886084L, 235802126L))
+result <- do.call(mcga:::ByteVectorToDoubles,testlist)
+str(result)

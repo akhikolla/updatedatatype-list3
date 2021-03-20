@@ -1,0 +1,3 @@
+testlist <- list(idx = c(-1.65655268489012e+304, -6.46045970341145e+307,  NaN, NaN, NaN, NaN, NaN, NaN, 5.29946982737798e-169, -4.63175634435155e-282,  NaN, NaN, NaN, NaN, 8.26299051849337e-317, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0), v = c(NaN, Inf, -2.14555482475164e+110, 0))
+result <- do.call(nanotime:::nanoduration_subset_numeric_impl,testlist)
+str(result)

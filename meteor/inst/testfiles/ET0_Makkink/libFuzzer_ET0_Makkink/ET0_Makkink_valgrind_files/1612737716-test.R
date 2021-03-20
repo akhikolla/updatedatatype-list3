@@ -1,0 +1,3 @@
+testlist <- list(Rs = numeric(0), atmp = numeric(0), relh = numeric(0), temp = c(1.23971598178855e+224,  8.90389806695633e+252, NaN, 1.27319747452976e-313, NaN, NaN,  NaN, 0, 0, 0, NaN, 2.17974840867383e-304, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ))
+result <- do.call(meteor:::ET0_Makkink,testlist)
+str(result)

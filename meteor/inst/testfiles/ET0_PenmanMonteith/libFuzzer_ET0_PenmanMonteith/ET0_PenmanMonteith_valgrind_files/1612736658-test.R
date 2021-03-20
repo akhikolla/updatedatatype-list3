@@ -1,0 +1,3 @@
+testlist <- list(G = numeric(0), Rn = numeric(0), atmp = numeric(0), ra = numeric(0),      relh = numeric(0), rs = numeric(0), temp = c(NaN, NaN, -3.20410635625037e-306,      -5.30145170521205e+291, 7.29112201953017e-304, NaN, 3.23785921002061e-319,      5.14359810261145e+25, -0.124019579326405, -2.04165713516288e-302,      NaN, 4.29351797592745e+160, NaN, 1.25986739689518e-321, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+result <- do.call(meteor:::ET0_PenmanMonteith,testlist)
+str(result)
